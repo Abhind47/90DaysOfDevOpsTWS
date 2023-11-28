@@ -1,0 +1,45 @@
+Day 3 Task: Basic Linux Commands
+
+Task: What is the linux command to
+
+To view what's written in a file. 
+A. cat filename.ext
+To change the access permissions of files.
+A. chmod 777 filename.ext
+To check which commands you have run till now.
+A. history
+To remove a directory/ Folder.
+A. rm -rf directoryname or rm -rf foldername
+To create a fruits.txt file and to view the content.
+A. cat fruits.txt
+Add content in devops.txt (One in each line) - Apple, Mango, Banana, Cherry, Kiwi, Orange, Guava.
+A. vim devops.txt
+#press 'i' for insert mode
+Apple
+Mango
+Banana
+Cherry
+Kiwi
+Orange
+Guava
+#press esc then type :wq and press enter
+To Show only top three fruits from the file.
+A. cat head -3 devops.txt
+To Show only bottom three fruits from the file.
+A. cat tail -3 devops.txt
+To create another file Colors.txt and to view the content.
+A. vim colors.txt
+Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
+A. A. vim devops.txt
+#press 'i' for insert mode
+Red
+Pink
+White
+Black
+Blue
+Orange
+Purple
+Grey
+#press esc then type :wq and press enter
+To find the difference between fruits.txt and Colors.txt file.
+A. diff fruits.txt colors.txt
